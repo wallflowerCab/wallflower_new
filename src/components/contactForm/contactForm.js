@@ -23,8 +23,8 @@ const ContactForm = () => {
        <input type="text" name="email" placeholder="Email" required="required" />
        <select {...register("I am a")}>
         <option value="" disabled selected>I am a...</option>
-         <option value="Contractor">Contractor</option>
-         <option value=" Homeowner"> Homeowner</option>
+         <option value="Contractor"> Builder/Contractor</option>
+         <option value="Architect"> Architect</option>
          <option value=" Interior Designer"> Interior Designer</option>
          <option value=" Other"> Other</option>
        </select>
