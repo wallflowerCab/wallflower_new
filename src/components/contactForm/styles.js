@@ -8,7 +8,7 @@ color: var(--Dark);
 font-family: adelle-sans;
 
 p{
-
+ 
 }
 
 input, select, textarea{
