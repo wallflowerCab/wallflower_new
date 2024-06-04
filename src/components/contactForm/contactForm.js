@@ -7,7 +7,7 @@ import GlobalStyle from "~/styles/globalStyles"
 const ContactForm = () => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
  const onSubmit = data => console.log(data);
-
+  console.log(useForm);
  console.log(watch("Agreement")); // watch input value by passing the name of it
 // action="https://getform.io/f/aaf92a3c-1ae8-4344-a4f2-56612a467001" method="POST" accept-charset="UTF-8"
   return(
@@ -30,7 +30,7 @@ const ContactForm = () => {
        </select>
        <p>Message</p>
        <textarea {...register("Message", {})} />
-
+    
        <Check>
        <input type="checkbox" placeholder="Agreement" required="required" />
        <CheckText>I accept that Wall Flower will contact me using the information in this form. *</CheckText>

@@ -70,18 +70,17 @@ export const Check = styled.div`
 display: flex;
 align-items: center;
 input{
-height: 8px !important;
+height: 30px !important;
 width: 30px !important;
 margin: 0;
-padding-bottom: 20px;
-border: 2px solid;
-appearance: none;
+outline: 2px solid var(--Dark) !important ;
+accent-color: var(--Dark);
 font-size: 9px;
 :hover{
   cursor: pointer;
 }
 :checked{
-  background-color: var(--Dark);
+  background-color: var(--Dark) !important;
 }
 }
 `
